@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Play</title>
+</head>
+<body>
+	<center>
+		<img src="play.png" width="50px" id="icon">
+	</center>
+<audio id="mySong"> <source src="Americantown.mp3" type="audio/mp3">
+</audio>
+	<style type="text/css">
+		
+		#icon{
+
+			cursor: pointer;
+		}
+	</style>
+
+	<script>
+		
+	var mySong = document.getElementById("mySong")
+	var icon = document.getElementById("icon")
+
+
+	icon.onclick = function() {
+
+		if(mySong.paused) {
+
+			mySong.play();
+			icon.src = "pause.png";
+		
+
+		}
+
+		else{
+
+			mySong.pause();
+			icon.src = "play.png";
+		}
+
+		
+	}
+	</script>
+
+</body>
+</html>

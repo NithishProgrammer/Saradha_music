@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Brand Name</title>
+	<link rel="stylesheet" type="text/css" href="music.css">
+</head>
+<body>
+<div class="navbar">
+		<ul>
+			<li>Home</li>
+			<li>Sign Out</li>
+			<li></li>
+		</ul>
+	</div>
+	<center>
+		<img src="Product.png" class="productlogo">
+	</center>
+	<div class="Flexs">
+		
+		<!--1-->
+		<div>
+	<center><img src="americantown.jpg" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname"> American Town</h3>
+	<h4 class="details">By Ed Sheeran</h4>
+	<center><p>Time: 3:00 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon">
+	<audio id="mySong"> <source src="Americantown.mp3" type="audio/mp3"></audio>
+		
+		
+
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	
+		
+		<!--2-->
+<div>
+	<center><img src="perfect.jpg" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname"> Perfect</h3>
+	
+	<h4 class="details">By Ed Sheeran</h4>
+	<center><p>Time: 4:00 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon1">
+	<audio id="mySong1"> <source src="Perfect.mp3" type="audio/mp3"></audio>
+	&nbsp;
+	
+	
+	<br><br>
+		<br>
+		<br>
+		<br>
+
+
+		
+		
+	
+</div>
+	<br>
+<br>
+		<br>
+		
+<!--4-->
+<div>
+	<center><img src="Bones.jpg" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname"> Bones</h3>
+	
+	<h4 class="details">By Imagine Dragons</h4>
+	<center><p>Time: 2:30 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon2">
+	<audio id="mySong2"> <source src="Bones.mp3" type="audio/mp3"></audio>
+
+
+	<br><br>
+		<br>
+		<br>
+		<br>
+
+
+		
+		
+	
+</div>
+<br>
+		<br>
+		<br>
+		<br>
+<!--5-->
+<div>
+	<center><img src="eyesclosed.png" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname"> Eyes Closed</h3>
+	<p class="details">By Ed Sheeran</p>
+	<center><p>Time: 3:10 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon3">
+	<audio id="mySong1"> <source src="Perfect.mp3" type="audio/mp3"></audio>
+
+
+	<br><br>
+		<br>
+		<br>
+		<br>
+
+
+		
+		
+	
+</div>
+<br>
+
+	<h4 class="next">Next Page..2</h4>
+	&nbsp;
+		
+
+
+	</div>
+
+	<script >
+		
+		var mySong = document.getElementById("mySong")
+	var icon = document.getElementById("icon")
+
+
+	icon.onclick = function() {
+
+		if(mySong.paused) {
+
+			mySong.play();
+			icon.src = "pause.png";
+		
+
+		}
+
+		else{
+
+			mySong.pause();
+			icon.src = "play.png";
+		}
+
+		
+	}
+
+
+	var mySong1 = document.getElementById("mySong1")
+	var icon1 = document.getElementById("icon1")
+
+
+	icon1.onclick = function() {
+
+		if(mySong1.paused) {
+
+			mySong1.play();
+			icon1.src = "pause.png";
+		
+
+		}
+
+		else{
+
+			mySong1.pause();
+			icon1.src = "play.png";
+		}
+
+		
+	}
+
+
+	var mySong2 = document.getElementById("mySong2")
+	var icon2 = document.getElementById("icon2")
+
+
+	icon2.onclick = function() {
+
+		if(mySong2.paused) {
+
+			mySong2.play();
+			icon2.src = "pause.png";
+		
+
+		}
+
+		else{
+
+			mySong2.pause();
+			icon2.src = "play.png";
+		}
+
+		
+	}
+	</script>
+</body>
+</html>
