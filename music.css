@@ -166,3 +166,16 @@ img{
 
  }
 
+@media (max-width: 384px) {
+
+	div{
+
+		height: 260px;
+	}
+
+	.hii{
+
+		max-width: 260px;
+		height: 260px;
+	}
+}
