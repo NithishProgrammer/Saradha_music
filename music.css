@@ -101,9 +101,9 @@ button:hover {
 
 		.hii{
 
-			max-width: 220px;
-			width: 220px;
-			height: 220px;
+			max-width: 240px;
+			width: 240px;
+			height: 240px;
 
 		}
 
@@ -171,7 +171,7 @@ img{
 
  }
 
-@media (max-width: 387px) {
+@media (min-width: 387px) {
 
 	div{
 
@@ -186,12 +186,3 @@ img{
 	}
 }
 
-@media (max-width: 500px) {
-
-		.hii{
-
-			max-width: 240px;
-			width: 240px;
-			height: 240px;
-
-		}
