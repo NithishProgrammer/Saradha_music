@@ -101,9 +101,9 @@ button:hover {
 
 		.hii{
 
-			max-width: 240px;
-			width: 240px;
-			height: 240px;
+			max-width: 260px;
+			width: 260px;
+			height: 260px;
 
 		}
 
@@ -129,7 +129,7 @@ button:hover {
 
 		div{
 
-			height: 240px;
+			height: 260px;
 		}
 
 	}
@@ -171,19 +171,5 @@ img{
 
  }
 
-@media (min-width: 387px) {
 
-	div{
-
-		height: 260px;
-	}
-
-	.hii{
-
-		max-width: 260px;
-		width: 260px;
-		height: 260px;
-
-	}
-}
 
