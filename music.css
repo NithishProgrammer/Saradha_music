@@ -171,5 +171,13 @@ img{
 
  }
 
+@media (max-width: 398px) {
+
+	div{
+		height: 280px;
+	}
+}
+
+
 
 
