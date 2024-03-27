@@ -174,10 +174,29 @@ img{
 @media (max-width: 398px) {
 
 	div{
-		height: 280px;
+		height: 300px;
 	}
-}
 
+	#icon{
+
+			max-width: 35px;
+		}
+
+		#icon1{
+
+			max-width: 35px;
+		}
+
+		#icon2{
+
+			max-width: 35px;
+		}
+
+		#icon3{
+
+			max-width: 35px;
+		}
+}
 
 
 
