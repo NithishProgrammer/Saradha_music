@@ -241,7 +241,7 @@ img{
 	font-family: "Anton", sans-serif;
   font-weight: 400px;
   font-style: normal;
-	text-size: 12px;
+	text-size: 10px;
 }
 
 .signout:hover{
@@ -253,4 +253,5 @@ img{
 .home{
 
   color: sandybrown;
+	text-size: 16px
 }
