@@ -202,4 +202,32 @@ img{
 }
 
 
+@media (max-width: 375px) {
 
+	div{
+
+		height: 320px;
+		justify-content: space-between;
+	}
+
+	.hii{
+
+		height: 150px;
+		max-width: 150px;
+	}
+
+	.pname{
+
+		font-size: 15px;
+	}
+
+	.details{
+
+		font-size: 12px;
+	}
+
+	p{
+
+		font-size: 10px;
+	}
+}
