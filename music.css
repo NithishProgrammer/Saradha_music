@@ -231,3 +231,25 @@ img{
 		font-size: 10px;
 	}
 }
+
+.signout{
+
+	cursor: pointer;
+	transition: 0.2s;
+	text-decoration: none;
+	color: black;
+}
+
+.signout:hover{
+
+	color: red;
+	text-decoration: underline;
+}
+
+.home{
+
+	font-family: "Anton", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color: sandybrown;
+}
