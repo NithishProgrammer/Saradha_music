@@ -241,6 +241,7 @@ img{
 	font-family: "Anton", sans-serif;
   font-weight: 400px;
   font-style: normal;
+	text-size: 12px;
 }
 
 .signout:hover{
