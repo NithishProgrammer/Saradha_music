@@ -97,11 +97,11 @@
 <!--5-->
 <div>
 	<center><img src="eyesclosed.png" class="hii" oncontextmenu="return false"></center>
-	<h3 class="pname"> Eyes Closed</h3>
-	<p class="details">By Ed Sheeran</p>
+	<h3 class="pname"> Radioactive</h3>
+	<p class="details">By Imagine Dragons</p>
 	<center><p>Time: 3:10 minutes (approx.)</p></center><br>
 	<img src="play.png" id="icon3">
-	<audio id="mySong1"> <source src="Perfect.mp3" type="audio/mp3"></audio>
+	<audio id="mySong3"> <source src="Radioactive.mp3" type="audio/mp3"></audio>
 
 
 	<br><br>
@@ -195,6 +195,30 @@
 
 		
 	}
+
+		var mySong3 = document.getElementById("mySong3")
+	var icon3 = document.getElementById("icon3")
+
+
+	icon3.onclick = function() {
+
+		if(mySong3.paused) {
+
+			mySong3.play();
+			icon3.src = "pause.png";
+		
+
+		}
+
+		else{
+
+			mySong3.pause();
+			icon3.src = "play.png";
+		}
+
+		
+	}
+
 	</script>
 </body>
 </html>
