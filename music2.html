@@ -94,7 +94,7 @@
 	<p class="details">By Måneskin</p>
 	<center><p>Time: 3:20 minutes (approx.)</p></center><br>
 	<img src="play.png" id="icon3">
-	<audio id="mySong1"> <source src="Beggin.mp3" type="audio/mp3"></audio>
+	<audio id="mySong3"> <source src="Beggin.mp3" type="audio/mp3"></audio>
 
 
 	<br><br>
@@ -189,6 +189,28 @@
 
 			mySong2.pause();
 			icon2.src = "play.png";
+		}
+
+		
+	}
+		var mySong3 = document.getElementById("mySong3")
+	var icon3 = document.getElementById("icon3")
+
+
+	icon3.onclick = function() {
+
+		if(mySong3.paused) {
+
+			mySong3.play();
+			icon3.src = "pause.png";
+		
+
+		}
+
+		else{
+
+			mySong3.pause();
+			icon3.src = "play.png";
 		}
 
 		
