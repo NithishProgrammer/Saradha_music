@@ -71,10 +71,6 @@ float: left;
 	text-align: center;
 }
 
-button:hover {
-
-	background: #DC8400;
-}
 
 @media (max-width: 570px) {
 
