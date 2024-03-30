@@ -256,3 +256,21 @@ img{
   color: sandybrown;
 	font-size: 19px;
 }
+
+.next{
+
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	border-radius: 12px;
+	background: whitesmoke;
+	border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px sandybrown;
+}
+
+.next:hover{
+
+	background: sandybrown;
+	box-shadow: 5px 8px whitesmoke;
+}
