@@ -1,0 +1,77 @@
+body{
+
+	background: black;
+
+}
+
+h1{
+
+	color: white;
+
+}
+
+h3{
+
+	color: floralwhite;
+	font-family: "Butterfly Kids", cursive;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+p{
+
+	color: sandybrown;
+	font-family: "Kalam", cursive;
+}
+
+img{
+
+	max-width: 220px;
+	max-height: 220px;
+	border-radius: 18px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+@media (max-width: 315px){
+
+	img{
+
+		width: 180px;
+		height: 180px;
+	}
+}
+
+h4{
+
+	color: grey;
+}
+a{
+
+	color: grey;
+}
+
+h5{
+
+	color: grey;
+}
+
+#icon{
+
+	width: 35px;
+	height: 35px;
+}
+}
+
+#icon{
+
+	width: 40px;
+
+	vertical-align: top;
+	cursor: pointer;
+
+
+
+
+
+}

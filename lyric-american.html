@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>American Town</title>
+	<link rel="stylesheet" type="text/css" href="lyric-american.css">
+	<link rel="icon" href="americantown.jpg">
+</head>
+<body>
+	<center><h1>Lyric - <img src="play.png" id="icon" oncontextmenu="return false">American Town</h1>
+	           <h3>By Ed Sheeran</h3>
+	           <br>
+	           <br>
+	       
+	           <img src="americantown.jpg" oncontextmenu="return false"><br><br>
+	           <audio id="mySong"> <source src="Americantown.mp3" type="audio/mp3"></audio>
+	           
+	           <p>We're a long way from home<br>
+Haven't seen you in so long<br>
+But it all came back in one moment<br>
+And the year started cold<br>
+But I didn't notice at all<br>
+And when we found there's a room we're both in<br><br>
+
+We get Chinese food in small white boxes<br>
+Live the life we saw in Friends<br>
+Your room, it barely fits the mattress<br>
+Wake up, leave for work again<br>
+The wind, it seems to blow right through us<br>
+Down jackets are the trend<br>
+The rush, we're rushing deep into love<br><br>
+
+English girl in an American town<br>
+No elevator to the fifth floor, I'll<br>
+Ring on the buzzer then you'll be right down<br>
+I wish time would freeze<br>
+Dungarees over the hoodie, we're out<br>
+Feet are three feet off the ground<br>
+Lost in love and we don't wanna be found<br>
+It's just you and me<br>
+My English girl in an American town<br>
+In an American town<br><br>
+
+Days come and go<br>
+But it ends, windows closed<br>
+And the scent of your perfume's on me<br>
+You're useless with your phone<br>
+Electric when one-on-one<br>
+I thought I would be more nervous, darlin'<br><br>
+
+We watch comedies and miss the endings<br>
+Conversations till the dawn<br>
+And your changin' tide, we push against it<br>
+Challenge meanings in the songs<br>
+And head out without a reservation<br>
+Drinkin' out of paper bags<br>
+And wasting time is time not wasted<br><br>
+
+With my English girl in an American town<br>
+No elevator to the fifth floor, I'll<br>
+Ring on the buzzer then you'll be right down<br>
+I wish time would freeze<br>
+Dungarees over the hoodie, we're out<br>
+Feet are three feet off the ground<br>
+Lost in love and we don't wanna be found<br>
+It's just you and me<br>
+My English girl in an American town<br><br>
+
+And when our eyes are closed together, I can't explain<br>
+How the scent of your perfume takes me to a higher place<br>
+We can watch it unfold or we can change how it takes<br>
+And we build when it breaks down <br>
+
+We drink Moscow Mules and steal the cups<br>
+From, mostly, the Bowery Bar<br>
+What a perfect day to fall in love on<br>
+What a way to make a start
+It appears when you think all is lost, then<br>
+You don't remember when it started, never have to pretend<br><br>
+
+With my English girl in an American town<br>
+No elevator to the fifth floor, I'll<br>
+Ring on the buzzer then you'll be right down<br>
+I wish time would freeze<br>
+Dungarees over the hoodie, we're out<br>
+Feet are three feet off the ground<br>
+Lost in love and we don't wanna be found<br>
+It's just you and me<br><br>
+
+English girl in an American town<br>
+No elevator to the fifth floor, I'll<br>
+Ring on the buzzer then you'll be right down<br>
+I wish time would freeze<br>
+Dungarees over the hoodie, we're out<br>
+Feet are three feet off the ground<br>
+Lost in love and we don't wanna be found<br>
+It's just you and me<br>
+My English girl in an American town</p>
+
+<br>
+
+<h4>Source: <a href="https://lyrics.lyricfind.com/" target="_blank">LyricFind</a></h4>
+<h5>American Town lyrics © Sony/ATV Music Publishing LLC
+</h5></center>
+
+<script>
+		
+		var mySong = document.getElementById("mySong")
+	var icon = document.getElementById("icon")
+
+
+	icon.onclick = function() {
+
+		if(mySong.paused) {
+
+			mySong.play();
+			icon.src = "pause.png";
+		
+
+		}
+
+		else{
+
+			mySong.pause();
+			icon.src = "play.png";
+		}
+
+		
+	}
+</script>
+
+</body>
+</html>
