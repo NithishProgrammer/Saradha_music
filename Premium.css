@@ -250,6 +250,7 @@ img{
 	background: whitesmoke;
 	border: 1px solid;
   box-shadow: 5px 10px sandybrown;
+	cursor: pointer;
 }
 
 .next:hover{
