@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Brand Name - 2</title>
+	<link rel="stylesheet" type="text/css" href="music3.css">
+	<link rel="icon" href="icon(2).png">
+</head>
+<body>
+
+	<center>
+		<img src="Product.png" class="productlogo"><br>
+		<h2 style="color:white;">Tamil Part</h2><br>
+	</center>
+	<div class="Flexs">
+		
+		<!--1-->
+		<div>
+	<center><img src="Kannalane.jpg" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname"> Kannalane</h3>
+	<h4 class="details">By AR Rahman</h4>
+	<center><p>Time: 3:00 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon">
+	<audio id="mySong"> <source src="Kannalane.mp3" type="audio/mp3"></audio><br>
+		<br>
+		<br>
+		<br><br><br>
+		
+		
+
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	
+		
+		<!--2-->
+<div>
+	<center><img src="Vaseegara.jpg" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname"> Vaseeraga</h3>
+	
+	<h4 class="details">By Harris Jayaraj</h4>
+	<center><p>Time: 4:00 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon1">
+	<audio id="mySong1"> <source src="Vaseegara.mp3" type="audio/mp3"></audio>
+	&nbsp;
+	
+	
+	<br><br>
+		<br>
+		<br>
+		<br>
+
+
+		
+		
+	
+</div>
+	<br>
+<br>
+		<br>
+		
+<!--4-->
+<div>
+	<center><img src="Sandakara.jpg" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname">Ey Sandakara</h3>
+	
+	<h4 class="details">By Santhosh Narayanan</h4>
+	<center><p>Time: 3:15 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon2">
+	<audio id="mySong2"> <source src="Sandakara.mp3" type="audio/mp3"></audio>
+
+
+	<br><br>
+		<br>
+		<br>
+		<br>
+
+
+		
+		
+	
+</div>
+<br>
+		<br>
+		<br>
+		<br>
+<!--5-->
+<div>
+	<center><img src="Nee-kavithaigala.jpg" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname"> Nee Kavithaigala</h3>
+	<p class="details">By Dhibu Thomas</p>
+	<center><p>Time: 3:20 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon3">
+	<audio id="mySong3"> <source src="Nee-Kavithaigala.mp3" type="audio/mp3"></audio>
+
+
+	<br><br>
+		<br>
+		<br>
+		<br>
+
+
+		
+		
+	
+</div>
+<br>
+<br>
+<br>
+		<br>
+		<br>
+		<br>
+<!--5-->
+<div>
+	<center><img src="Oh-Shanthi.jpg" class="hii" oncontextmenu="return false"></center>
+	<h3 class="pname"> Oh-Shanthi</h3>
+	<p class="details">By Harris Jayaraj</p>
+	<center><p>Time: 3:20 minutes (approx.)</p></center><br>
+	<img src="play.png" id="icon4">
+	<audio id="mySong4"> <source src="Oh-Shanthi.mp3" type="audio/mp3"></audio>
+
+
+	<br><br>
+		<br>
+		<br>
+		<br>
+
+
+		
+		
+	
+</div>
+<br><br>
+
+
+<center><button class="next">Next</button></center><br><br>
+<a href="https://nithishprogrammer.github.io/Saradha_music/music2.html"><button class="next">Back</button></a>
+
+	<h4 class="nextpage" style="color: grey;">ⓘ Next Page not available</h4>
+	&nbsp;
+		
+
+
+	</div>
+
+	<script >
+		
+		var mySong = document.getElementById("mySong")
+	var icon = document.getElementById("icon")
+
+
+	icon.onclick = function() {
+
+		if(mySong.paused) {
+
+			mySong.play();
+			mySong1.pause();
+			icon1.src = "play.png"
+
+			mySong2.pause();
+			icon2.src = "play.png"
+
+			mySong3.pause();
+			icon3.src = "play.png"
+
+			mySong4.pause();
+			icon4.src = "play.png"
+
+			icon.src = "pause.png";
+		
+
+		}
+
+		else{
+
+			mySong.pause();
+			icon.src = "play.png";
+		}
+
+		
+	}
+
+
+	var mySong1 = document.getElementById("mySong1")
+	var icon1 = document.getElementById("icon1")
+
+
+	icon1.onclick = function() {
+
+		if(mySong1.paused) {
+
+			mySong1.play();
+			icon1.src = "pause.png";
+
+			mySong.pause();
+			icon.src = "play.png"
+
+			mySong2.pause();
+			icon2.src = "play.png"
+
+			mySong3.pause();
+			icon3.src = "play.png"
+
+			mySong4.pause();
+			icon4.src = "play.png"
+		
+
+		}
+
+		else{
+
+			mySong1.pause();
+			icon1.src = "play.png";
+		}
+
+		
+	}
+
+
+	var mySong2 = document.getElementById("mySong2")
+	var icon2 = document.getElementById("icon2")
+
+
+	icon2.onclick = function() {
+
+		if(mySong2.paused) {
+
+			mySong2.play();
+			icon2.src = "pause.png";
+
+			mySong1.pause();
+			icon1.src = "play.png"
+
+			mySong.pause();
+			icon.src = "play.png"
+
+			mySong3.pause();
+			icon3.src = "play.png"
+
+			mySong4.pause();
+			icon4.src = "play.png"
+		
+
+		}
+
+		else{
+
+			mySong2.pause();
+			icon2.src = "play.png";
+		}
+
+		
+	}
+		var mySong3 = document.getElementById("mySong3")
+	var icon3 = document.getElementById("icon3")
+
+
+	icon3.onclick = function() {
+
+		if(mySong3.paused) {
+
+			mySong3.play();
+			icon3.src = "pause.png";
+
+			mySong1.pause();
+			icon1.src = "play.png"
+
+			mySong2.pause();
+			icon2.src = "play.png"
+
+			mySong.pause();
+			icon.src = "play.png"
+
+			mySong4.pause();
+			icon4.src = "play.png"
+		
+
+		}
+
+		else{
+
+			mySong3.pause();
+			icon3.src = "play.png";
+		}
+
+		
+	}
+
+	var mySong4 = document.getElementById("mySong4")
+	var icon4 = document.getElementById("icon4")
+
+
+	icon4.onclick = function() {
+
+		if(mySong4.paused) {
+
+			mySong4.play();
+			icon4.src = "pause.png";
+
+			mySong1.pause();
+			icon1.src = "play.png"
+
+			mySong2.pause();
+			icon2.src = "play.png"
+
+			mySong3.pause();
+			icon3.src = "play.png"
+
+			mySong.pause();
+			icon.src = "play.png"
+		
+
+		}
+
+		else{
+
+			mySong4.pause();
+			icon4.src = "play.png";
+		}
+
+		
+	}
+
+	</script>
+
+</body>
+</html>
